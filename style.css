@@ -1,122 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 214, 10, 0.8) 70%,
+    rgba(0, 0, 255, 0.6)
+  );
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Architects Daughter", cursive;
 }
-body{
-     background: linear-gradient(270deg, rgba(255, 214, 10,0.8) 70%, rgba(0,0,255,0.6)); ;
-    
-    font-family: 'Courgette', cursive;
-    /* color: rgb(255, 190, 11, 0.7); */
-    
-}
-.heading{
-    /* background-color: rgb(255, 214, 10); */
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-    border-bottom: 2px solid rgba(0, 53, 102,0.1);
-    box-shadow: 3px 2px 10px rgba(0, 0, 255, .2);
-}
-.main_content{
-    display: flex;
-    /* justify-content: space-between; */
-    /* background-color: brown; */
-    max-width: 80vw;
-    margin:auto;
-}
-.hero_img{
-    width:20%;
-   
-}
-.hero_img img{
-    max-width: 20vw;
-    min-height: 100vh;
-}
-main{
-    
-    display: flex;
-    flex-direction: column;
-     max-width: 80vw;
-      margin-left: 5rem;
-}
- .sub-heading{
-    /* background-color:yellow; */
-   /* text-align: center; */
-    padding: 3rem 1rem 1rem 1rem;
-    
-} 
-
-
-#input-text{
-    background-color: #FFFFFF80;
-    width:98%;
-    height: 20vh;
-    padding: 1rem;
-    font-size: 1.2rem;
-    margin: 2rem 0 2rem 0;
-    border-radius: 10px;
-    border: 2px solid rgb(0, 53, 102); 
-    /* background-color: transparent;  */
- } 
-#btn-translate{
-    background-color: rgb(0, 53, 102);
-    color: white; 
-    padding: 1rem;
-    font-size: 1.2rem; 
-    max-width: 50%; 
-    border-radius: 10px;
-    /* margin-right: 2rem; */
-    margin-bottom: 2rem;
-    outline: none;
-    border:none
-} 
-p{
-    font-weight: bold; 
-    margin-bottom: 1rem;
- } 
-
- #output-text{
-    background-color: #FFFFFF80;
-    width: 100%;
-    height: 20vh;
-    padding: 1rem;
-    margin-top: 1rem;
-    border-radius: 10px;
-    border: 2px solid rgb(0, 53, 102);
-} 
-footer{
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    margin-bottom: 0;
-    width:100%;
-    height: 20vh;
-    padding: 1rem;
-    background-color:rgba(255, 214, 10,0.8);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border: 2px solid rgb(0, 53, 102);
-}
-footer p{
-    text-align: center;
-    margin-top: 0.5rem;
-}
-footer .links{
-  /* background-color: chartreuse; */
+.heading {
   text-align: center;
-
-
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid rgba(0, 53, 102, 0.1);
+  box-shadow: 3px 2px 10px rgba(0, 0, 255, 0.2);
 }
-footer .links a{
-    text-decoration: none;
-    color: black;
-  
-    padding: 0 1rem;
- 
+.main_content {
+  display: flex;
+}
 
+.hero_img {
+  width: 30%;
+  padding-left: 6rem;
+}
+.hero_img img {
+  width: 20vw;
+  height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
 
+  margin-left: 5rem;
+  padding: 1rem;
+}
+.sub-heading {
+  padding: 1rem;
+}
+
+#input-text {
+  background-color: #ffffff80;
+  width: 100%;
+  height: 28vh;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 2rem 0 2rem 0;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 53, 102);
+}
+#btn-translate {
+  background-color: rgb(0, 53, 102);
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  outline: none;
+  border: none;
+}
+p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#output-text {
+  background-color: #ffffff80;
+  width: 100%;
+  /* max-width: 500px; */
+  height: 28vh;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 53, 102);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  height: 20vh;
+  padding: 1rem;
+}
+footer p {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+footer .links {
+  text-align: center;
+}
+footer .links a {
+  text-decoration: none;
+  color: black;
+  padding: 0 1rem;
+  font-weight: bold;
 }
